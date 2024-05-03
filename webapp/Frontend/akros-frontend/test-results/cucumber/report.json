@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "navigation-test;click-on-the-button-and-navigate-to-greet-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Click on the button and navigate to greet page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page",
+            "match": {
+              "location": "src\\app\\e2eTest\\step\\siteSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1342933300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the button with ID \"agrostest\"",
+            "match": {
+              "location": "src\\app\\e2eTest\\step\\siteSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3073430700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be navigated to \"http://localhost:8889/greet\"",
+            "match": {
+              "location": "src\\app\\e2eTest\\step\\siteSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161502499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "navigation-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Navigation Test",
+    "tags": [],
+    "uri": "src\\app\\e2eTest\\features\\site.feature"
+  }
+]
